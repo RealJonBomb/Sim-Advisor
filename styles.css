@@ -135,3 +135,29 @@ footer {
         font-size: 2.4rem;
     }
 }
+
+/* Services Page */
+.services-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 60px 40px;
+}
+
+.service-card {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    border-color: #4da6ff;
+}
+
+.small-hero {
+    padding: 80px 20px;
+}
+
