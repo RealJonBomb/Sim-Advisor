@@ -215,3 +215,50 @@ footer {
     margin: 10px 0;
     font-size: 1.1rem;
 }
+
+
+/* Contact Page */
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    width: 300px;
+}
+
+.contact-form {
+    background-color: #111;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background-color: #0d0d0d;
+    color: #e6e6e6;
+}
+
+.contact-form button {
+    margin-top: 20px;
+}
