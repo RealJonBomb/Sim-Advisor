@@ -6,12 +6,6 @@
     <title>Gallery — Sim Advisor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
-<!-- Lightbox -->
-<div id="lightbox" class="lightbox" onclick="closeLightbox()">
-    <img id="lightbox-img" src="">
-</div>
-
 <body>
 
     <!-- Navigation -->
@@ -58,6 +52,21 @@
     <footer>
         <p>© 2026 Sim Advisor — All Rights Reserved</p>
     </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="">
+    </div>
+    <script>
+        function openLightbox(src) {
+            document.getElementById("lightbox-img").src = src;
+            document.getElementById("lightbox").style.display = "flex";
+        }
+        
+        function closeLightbox() {
+            document.getElementById("lightbox").style.display = "none";
+        }
+    </script>
 
 </body>
 </html>
