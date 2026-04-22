@@ -6,6 +6,12 @@
     <title>Gallery — Sim Advisor</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="">
+</div>
+
 <body>
 
     <!-- Navigation -->
@@ -31,19 +37,19 @@
 
         <!-- Replace these with your real filenames -->
         <div class="gallery-item">
-            <img src="images/20241217_215340.jpg" alt="Sim rig photo 1">
+            <img src="images/20241217_215340.jpg" alt="Sim rig photo 1" onclick="openLightbox(this.src)">
         </div>
 
         <div class="gallery-item">
-            <img src="images/20250408_214654.jpg" alt="Sim rig photo 2">
+            <img src="images/20250408_214654.jpg" alt="Sim rig photo 2" onclick="openLightbox(this.src)">
         </div>
 
         <div class="gallery-item">
-            <img src="images/20250414_003719.jpg" alt="Sim rig photo 3">
+            <img src="images/20250414_003719.jpg" alt="Sim rig photo 3" onclick="openLightbox(this.src)">
         </div>
 
         <div class="gallery-item">
-            <img src="images/20250227_035449.jpg" alt="Sim rig photo 4">
+            <img src="images/20250227_035449.jpg" alt="Sim rig photo 4" onclick="openLightbox(this.src)">
         </div>
 
     </section>
