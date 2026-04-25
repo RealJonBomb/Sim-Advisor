@@ -189,20 +189,23 @@ footer {
     padding: 80px 20px;
 }
 
-/* Pricing Page */
+/* Pricing Section */
 .pricing-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
-    padding: 60px 40px;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+/* Pricing Cards */
 .pricing-card {
-    background-color: #111;
-    padding: 30px;
-    border-radius: 10px;
+    background: #111;
     border: 1px solid #222;
-    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
     transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
@@ -211,37 +214,71 @@ footer {
     border-color: #e60023;
 }
 
-.pricing-card .price {
-    font-size: 2rem;
-    margin: 15px 0;
-    color: #e60023;
+/* Card Titles */
+.pricing-card h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #ffffff;
 }
 
+/* Price */
+.pricing-card .price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #e60023;
+    margin-bottom: 5px;
+}
+
+/* Subtitle */
+.pricing-card .subtitle {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+
+/* List Items */
 .pricing-card ul {
     list-style: none;
-    margin: 20px 0;
     padding: 0;
+    margin: 0;
 }
 
-.pricing-card li {
-    margin: 8px 0;
-    color: #ccc;
+.pricing-card ul li {
+    margin-bottom: 10px;
+    color: #dddddd;
+    font-size: 0.95rem;
 }
 
-/* A La Carte Section */
-.alacarte-section {
-    padding: 40px;
-    text-align: center;
+/* Premium Card Highlight */
+.pricing-card.premium {
+    border: 1px solid #e60023;
+    background: linear-gradient(to bottom right, #1a1a1a, #0d0d0d);
+    box-shadow: 0 0 15px rgba(230, 0, 35, 0.3);
 }
 
-.alacarte-list {
-    list-style: none;
-    margin-top: 20px;
+.pricing-card.premium:hover {
+    transform: translateY(-7px);
+    border-color: #ff1a3a;
 }
 
-.alacarte-list li {
-    margin: 10px 0;
-    font-size: 1.1rem;
+/* Small Hero (for Pricing Page Header) */
+.small-hero {
+    height: 35vh;
+    background: linear-gradient(to bottom right, #0d0d0d, #1a1a1a);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-hero h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+}
+
+.small-hero p {
+    font-size: 1.2rem;
+    color: #cccccc;
 }
 
 
