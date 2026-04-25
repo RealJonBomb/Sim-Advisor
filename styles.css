@@ -12,6 +12,10 @@ body {
     line-height: 1.6;
 }
 
+:root {
+    --accent: #e60023; /* your red */
+}
+
 /* Navigation Bar */
 .navbar {
     display: flex;
