@@ -103,6 +103,13 @@ body {
     background-color: #80c1ff;
 }
 
+.hero h1,
+.hero p,
+.hero .cta-button {
+    position: relative;
+    z-index: 2;
+}
+
 /* Highlights Section */
 .highlights {
     display: flex;
