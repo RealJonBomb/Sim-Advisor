@@ -54,9 +54,15 @@ body {
 
 /* Hero Section */
 .hero {
+    height: 80vh; /* makes it tall and dramatic */
     text-align: center;
-    padding: 120px 20px;
-    background: linear-gradient(to bottom right, #0d0d0d, #1a1a1a);
+    padding: 0 20px;
+    background: url("images/hero.jpg") center/cover no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero h1 {
