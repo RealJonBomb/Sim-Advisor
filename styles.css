@@ -28,7 +28,7 @@ body {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #4da6ff;
+    color: e60023;
 }
 
 .nav-links {
@@ -45,7 +45,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #4da6ff;
+    color: e60023;
 }
 
 /* Hero Section */
@@ -70,7 +70,7 @@ body {
 .cta-button {
     display: inline-block;
     padding: 12px 28px;
-    background-color: #4da6ff;
+    background-color: e60023;
     color: #0d0d0d;
     font-weight: bold;
     border-radius: 6px;
@@ -102,12 +102,12 @@ body {
 
 .highlight:hover {
     transform: translateY(-5px);
-    border-color: #4da6ff;
+    border-color: e60023;
 }
 
 .highlight h3 {
     margin-bottom: 10px;
-    color: #4da6ff;
+    color: e60023;
 }
 
 /* Footer */
@@ -154,7 +154,7 @@ footer {
 
 .service-card:hover {
     transform: translateY(-5px);
-    border-color: #4da6ff;
+    border-color: e60023;
 }
 
 .small-hero {
@@ -180,13 +180,13 @@ footer {
 
 .pricing-card:hover {
     transform: translateY(-5px);
-    border-color: #4da6ff;
+    border-color: e60023;
 }
 
 .pricing-card .price {
     font-size: 2rem;
     margin: 15px 0;
-    color: #4da6ff;
+    color: e60023;
 }
 
 .pricing-card ul {
@@ -281,7 +281,7 @@ footer {
 
 .gallery-item:hover {
     transform: scale(1.02);
-    border-color: #4da6ff;
+    border-color: e60023;
 }
 
 .gallery-item img {
